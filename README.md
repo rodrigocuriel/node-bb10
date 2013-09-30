@@ -1,7 +1,5 @@
 # node-bb10
 
-![Endare icon](http://www.endare.eu/images/logo.png)
-
 node-bb10 is a Node.JS library that is able to push notifications to a BlackBerry 10 device.
 
 
@@ -50,7 +48,7 @@ initiator.push(message, function(err, result) {
     in the entire world! Most of the time, people make a combination of their packagename and a timestamp. An example
     of an ID could be
 
-    `eu.endare.appName@1374148800`
+    `curiel.appName@1374148800`
     </dd>
 
   <dt>applicationID and password</dt>
@@ -71,11 +69,15 @@ var initiator = new bb10.PushInitiator(applicationId, password, CPID, true);
 
 ## Contributors
  * [SamVerschueren]     <verschueren.sam@endare.eu>
+ * [roocuriel]     <rodrigocuriel@gmail.com>
 
 ## Changelog
 **1.0.0:**
  * first release
- 
+
+**1.0.1:**
+ * fixed date bug preventing push to be sent 
+
 ## The full MIT license
 
 The MIT License
