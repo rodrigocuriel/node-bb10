@@ -83,6 +83,7 @@ var initiator = new bb10.PushInitiator(applicationId, password, CPID, true);
 The MIT License
 
 Copyright (c) 2013 Rodrigo Curiel <rodrigocuriel@gmail.com>
+
 Copyright (c) 2013 Endare BVBA <info@endare.eu>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
